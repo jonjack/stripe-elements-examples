@@ -1,7 +1,7 @@
 
 'use strict';
 
-var stripe = Stripe('PUBLISHABLE-STRIPE-API-KEY');
+var stripe = Stripe('rk_test_1iMhjY7f5CoIcsNSBiu2xVCS57L28F5sz8KiGpaSaCWntiZo7UZs6WfrjA3QD3zNqsvOewecqE7amzkWB4i6S2JHH00fr3X3C2P');
 
 function registerElements(stripeElements, elements, exampleName) {
   var formClass = '.' + exampleName;
